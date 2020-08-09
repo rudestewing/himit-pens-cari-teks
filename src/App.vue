@@ -6,7 +6,7 @@
                     Himit Pens Cari Teks 
                 </h4>
                 <span class="t-text-gray-600 t-text-center t-block">
-                    Source Video URL [ {{videoUrl}} ]
+                    Source Video URL [ {{ videoUrl }} ]
                 </span>
 
                 <div class="t-py-5">
@@ -21,7 +21,7 @@
                             <div v-html="item.text"></div>
                         </div>
                         <div class="t-text-gray-600 t-text-md t-mb-5 t-text-sm">
-                            Start: {{item.start}} - End : {{item.end}}
+                            Start: {{ item.start }} - End : {{ item.end }}
                         </div>
                         <div>
                             <a :href="`${videoUrl}&t=${item.start}s`" target="_blank" class="t-bg-blue-700 t-text-white t-py-2 t-px-4 hover:t-text-white t-rounded-lg t-text-sm"> Go to Video </a>
